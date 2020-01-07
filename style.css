@@ -1,9 +1,15 @@
 /* global */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html{
+    user-select: none;
+}
+
 .grid-2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+
 
 body{
     margin: 0;
